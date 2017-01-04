@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="ejercicioCSS.css">
+<script type="text/javascript" src="ejercicioJSON.js"></script>
+<head> <!--Linkear cosas .css .js  etc.-->
+<title>Pagina de Silke</title><!--Titulo de la pagina-->
+</head>
+
+<body> <!--Lo que se ve en la pantalla-->
+<h1>Heeey!</h1>
+<p>Hola me llamo Silke.</p> <!--Parrafo-->
+<p>Estoy aprendiendo HTML :P.</p>
+<a href="http://www.google.com">Entra a Google!</a>  <!--Ir a un link.-->
+<p>Imagen como link: <a href="http://www.google.com">
+<img border="0" alt="silke"
+  src="http://www.jqueryscript.net/images/Simplest-Responsive-jQuery-Image-Lightbox-Plugin-simple-lightbox.jpg"
+  width="100" height="100"> <!--Link en imagen-->
+</a>
+</p>
+Qué significa <abbr title="por qué">XQ</abbr>?<br> <!--Acrónimo-->
+Haciendo<br> <!--Espacios-->
+espacios<br>
+<button type="button" onclick="alert('Te dije que no lo hagas!')"> <!--Botón!-->
+    No me presiones.</button>
+<br>
+<canvas id="myCanvas"></canvas> <!--Para hacer gráficos-->
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#02A001";
+ctx.fillRect(0, 0, 80, 100);
+</script>
+<table><!--Hacer una tabla.-->
+  <caption>Ingresos mensuales</caption>
+  <tr>
+    <th>Mes</th>
+    <th>Ahorro</th>
+  </tr>
+  <tr>
+    <td>Enero</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Febrero</td>
+    <td>$50</td>
+  </tr>
+</table>
+</body>
+<center>Texto centrado.</center>  <!--Texto centrado.-->
+<em>Texto enfatizado</em><br>
+<strong>Texto fuerte.</strong><br>
+<code>Parte de codigo</code><br>
+<samp>Output de un programa de computadora.</samp><br>
+<kbd>Input de teclado</kbd><br>
+<var>Variable</var>
+<hr>
+<details> <!--Resumen oculto.-->
+  <summary>Copyright 1999-2014.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+<hr>
+<dir>
+  <li>html</li> <!--viñeta.-->
+  <li>xhtml</li>
+  <li>css</li>
+</dir>
+<hr>
+<div style="color:#0000FF">
+ <h3>This is a heading</h3>
+ <p>This is a paragraph.</p>
+</div>
+<hr>
+<form>
+ <fieldset>  <!--Da un block como field.-->
+  <legend>Persona:</legend>
+  Nombre: <input type="text"><br>
+  Email: <input type="text"><br>
+  F. nacimiento: <input type="text">
+ </fieldset>
+</form>
+<hr>
+<form action="demo_keygen.asp" method="get">
+  Usuario: <input type="text" name="usr_name">
+  Encriptación: <keygen name="security">
+  <input type="submit">
+</form>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0  <!--Suma :3.-->
+<input type="range" id="a" value="50">100
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form>
+</html>

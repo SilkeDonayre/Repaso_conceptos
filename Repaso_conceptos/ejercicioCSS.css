@@ -1,0 +1,39 @@
+table, th, td {
+    border: 1px solid black;
+}
+h1 {
+    color: red;
+    text-align: center;
+    border-style: dotted;
+    border-width: 5px;
+    text-shadow: 3px 2px grey;
+}
+p {
+    color: red;
+    text-align: left;
+    background-color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+body {
+    background-color: lightblue;
+}
+div {
+    background-color: yellow;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 200px;
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+a:hover {
+    color: blue;
+}
